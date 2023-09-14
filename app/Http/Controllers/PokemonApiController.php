@@ -30,7 +30,10 @@ class PokemonApiController extends Controller
             }
             return view('welcome', ['datos' => $data_pokemon]);
         }else{
-            $all[] = ['name' => 'no existen datos aun'];
+            $all[] = [
+                'name' => 'No se ha realizado ninguna busqueda aun',
+                'img' => ''
+        ];
             return view('welcome', ['datos' => $all]);
         }
     }
