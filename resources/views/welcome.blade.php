@@ -22,7 +22,6 @@
             @if(!empty($datos))
                 @foreach($datos as $data)
                     <h1> {{ $data['name'] }} </h1>
-                    <img src="{{ $data['img'] }}" alt="{{$data['name']}}">
                     @endforeach
             @endif
         </div>
