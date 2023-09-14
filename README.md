@@ -38,12 +38,14 @@ Copiar el archivo .env.example -> .env
 Darle permisos a la carpeta del proyecto
 
 ```bash
+  cd ..
   sudo chmod 777 pokemon-finder/ -R
 ```
 
 Darle permisos a la carpeta del proyecto
 
 ```bash
+  cd pokemon-finder
   php artisan key:generate
 ```
     
