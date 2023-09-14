@@ -32,12 +32,18 @@ Descargar dependencias
 Copiar el archivo .env.example -> .env
 
 ```bash
-  cp .env.example .
+  cp .env.example .env
 ```
 
 Darle permisos a la carpeta del proyecto
 
 ```bash
   sudo chmod 777 pokemon-finder/ -R
+```
+
+Darle permisos a la carpeta del proyecto
+
+```bash
+  php artisan key:generate
 ```
     
